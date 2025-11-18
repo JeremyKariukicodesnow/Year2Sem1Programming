@@ -55,7 +55,7 @@ class Shape {
 };
 
 //user functionality
-int main() {
+int mainy() {
 	Shape shapes;
 	cout << "Kindly follow instructions and use doubles \n" << endl;
 	cout << "Put in dimensions of the RECTANGLE or SQUARE\n>> Length = " << endl;
@@ -82,4 +82,5 @@ int main() {
 	cin >> shapes.c_height;
 	cout << "\nVOLUME of CYLINDER length and height  " << shapes.c_radius << " " << shapes.c_height << "respectively is =  " << shapes.f_volume(1, shapes.c_radius, 1, shapes.c_height) << endl;
 	cout << "\nSURFACE AREA of CYLINDER length and height  " << shapes.c_radius << " " << shapes.c_height << "respectively is =  " << shapes.f_surfacearea(1, shapes.c_radius, 1, shapes.c_height) << endl;
+	return 0;
 }
