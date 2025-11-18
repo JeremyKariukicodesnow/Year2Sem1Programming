@@ -1,0 +1,27 @@
+# Ignore Visual Studio workspace artifacts for Assignment1
+.vs/
+*.VC.db
+*.VC.opendb
+*.ipch
+*.pdb
+*.log
+
+# Build outputs
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+[Ii]ntermediate/
+[Oo]bj/
+[Bb]in/
+x64/
+x86/
+*.obj
+*.idb
+*.ilk
+*.pch
+*.dll
+*.exe
+*.lib
+*.exp
+*.cache
+*.lastbuildstate

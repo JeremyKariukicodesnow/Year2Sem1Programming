@@ -1,0 +1,60 @@
+# Root ignore rules for the entire Year2Sem1Programming repo
+# This file covers common Visual Studio / C++ build artifacts and
+# patterns shared by Assignment1 and any future assignment folders.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Visual Studio user-specific files
+*.suo
+*.sln.docstates
+*.user
+*.userosscache
+*.vcxproj.user
+*.opensdf
+*.tlog
+*.log
+
+# Compiler / linker outputs
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+[Vv]c[0-9]*/
+[Ll]og/
+*.obj
+*.idb
+*.pdb
+*.ilk
+*.ipch
+*.pch
+*.dll
+*.exe
+*.lib
+*.exp
+*.cache
+*.lastbuildstate
+
+# IDE caches
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Assignment folders (Assignment1, Assignment2, ...)
+Assignment*/.vs/
+Assignment*/x64/
+Assignment*/x86/
+Assignment*/[Bb]uild/
+Assignment*/[Dd]ebug*/
+Assignment*/[Rr]elease*/
+Assignment*/[Ii]ntermediate/
+Assignment*/[Oo]bj/
+Assignment*/[Bb]in/
+Assignment*/*.VC.db
+Assignment*/*.VC.opendb
+Assignment*/*.ipch
+Assignment*/*.pdb
+Assignment*/*.log
+
+# Keep the template for per-assignment .gitignore files consistent
+# with Assignment1/.gitignore so every assignment can fine-tune ignores.
