@@ -55,7 +55,7 @@ class Shape {
 };
 
 //user functionality
-int mainy() {
+int main() {
 	Shape shapes;
 	cout << "Kindly follow instructions and use doubles \n" << endl;
 	cout << "Put in dimensions of the RECTANGLE or SQUARE\n>> Length = " << endl;

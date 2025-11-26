@@ -4,10 +4,10 @@ using namespace std;
 
 class simpleCalc {
 public:
-	double num1 = 0.0;
-	double num2 = 0.0;
-	char operand = '+';
-	double answer = 0.0;;
+	double num1 ;
+	double num2;
+	char operand ;
+	double answer = 0.0;
 
 
 	void checkValidOperand() {
@@ -60,24 +60,24 @@ public:
 
 	double calculation(double num1, char operand, double num2) {
 		double result;
-		switch (operand)
-		{
-		case '+':
+		if (operand == '+') {
 			return result = f_add(num1, num2);
-		case '-':
+
+		}
+		else if (operand == '-') {
 			return result = f_sub(num1, num2);
-		case '/':
+		}
+		else if (operand == '/') {
 			return result = f_div(num1, num2);
-		case '*':
+		}
+		else if (operand == '*') {
 			return result = f_mult(num1, num2);
-		default:
-			return 0.0;
 		}
 	}
 
 };
 
-int main() {
+int mainy() {
 	char proceed = 'y';
 	do{
 		simpleCalc calc;
@@ -89,5 +89,5 @@ int main() {
 	}while (proceed == 'y');
 	cout << "\nBYE" << endl;
 
-
+	return 0;
 }
