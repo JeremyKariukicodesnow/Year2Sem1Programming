@@ -92,7 +92,7 @@ void output1() {
 	showSortedArr();
 }
 
-int main2() {
+int main() {
 	output1();
 	return 0;
 }
