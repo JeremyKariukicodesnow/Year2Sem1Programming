@@ -70,7 +70,8 @@ void output() {
 	comp_cube_square(largeCube, sum_square);
 }
 
-int main() {
+int main1() {
 	input();
 	output();
+	return 0;
 }
