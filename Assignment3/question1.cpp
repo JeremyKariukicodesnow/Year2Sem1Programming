@@ -81,7 +81,7 @@ public:
     }
 };
 
-int main() {
+int main1() {
     Shape shape;
 
     shape.input('r');
