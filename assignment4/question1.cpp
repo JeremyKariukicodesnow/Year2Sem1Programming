@@ -90,7 +90,7 @@ void facto::f_recursive_output() {
 	cout << f_recursive_facto(value) << endl;
 }
 
-int main(){
+int main1(){
 	facto Factorial;
 	Factorial.f_input();
 	Factorial.f_iterative_output();
