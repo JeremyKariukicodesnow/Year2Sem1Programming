@@ -13,11 +13,9 @@ struct Employee {
     double salary;
 };
 
-int main() {
-    const int numEmployees = 2;  // Number of employees
+int main3() {
+    const int numEmployees = 2; 
     Employee employees[numEmployees];
-
-    // Input employee data
     for (int i = 0; i < numEmployees; i++) {
         cout << "\nEnter details for the employee " << i + 1 << endl;
         cout << "Name: ";
