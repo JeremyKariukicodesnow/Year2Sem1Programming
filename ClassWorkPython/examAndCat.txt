@@ -1,0 +1,14 @@
+python classes
+access specifiers and inheritance
+exam majors on C++ but has some pythonexam has constructors and destructors and theories and rules
+determining output of code
+file manipulation and string comparison
+output of code
+c++ classes , defining a class , functions in classes 
+functions (declaration and definition) and function overloading
+operator overloading
+structs
+pointers and references , how used and differences 
+inheritance , kinds , definition 
+slice operator in python
+converting code from c++ to python and vice versa
